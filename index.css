@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#HiddenSideMenu {
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    background-color: beige;
+    right: 0;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    visibility: hidden;
+}
+
+#HeaderDiv {
+    height: 4.5rem;
+    width: 100%;
+    /* background-color: white; */
+}
+
+#CloseBtn {
+    cursor: pointer;
+}
+
+#LinksButtons {
+    height: 20%;
+    width: 100%;
+    background-color: orange;
+}
+
+.SocialLink {
+    background-color: blue;
+    color: white;
+    margin: 0.5rem 1rem .5rem 1rem;
+}
+
+.SocialLink:hover {
+    background: white;
+    color: black;
+}
+
+#IconsLink {
+    height: 5%;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+#FirstDiv {
+    height: 100vh;
+    width: 100%;
+    background-image: url("photos/1.jpg");
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+}
+
+.Filter {
+    height: 100vh;
+    width: 100%;
+    background-color: #0000006b;
+    color: white;
+    display: flex;
+}
+
+header {
+    height: 4rem;
+    width: 100%;
+    /* background-color: black; */
+    color: white;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+#Roxine {
+    width: 20rem;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.Container {
+    cursor: pointer;
+    position: inherit;
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    height: 4rem;
+    width: 4rem;
+    position: inherit;
+}
+
+#Cart {
+    background-image: url("photos/cart.png");
+}
+
+#SecondDiv {
+    height: 100vh;
+    width: 100%;
+    background-image: url("photos/2.jpg");
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+}
